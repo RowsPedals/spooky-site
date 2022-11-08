@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="spooky-style.css">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atma:wght@300;400;700&family=Cabin+Sketch:wght@400;700&family=Gaegu:wght@300;400;700&display=swap" rel="stylesheet">
+      
+    <body id="body" class="spiced-setting">
+
+    <div id="big-box">
+        <div id="banner">
+        <h1><span id="salutations">Salutations</span><p id="subtitle">Welcome to the food page of my first challenge site!<br>~Footer will take you back to the landing page~</p></h1>
+        </div>
+
+        <div id="nav">      
+
+            <a href="about.html">About</a> | 
+
+            <a href="#">Food I Made</a> | 
+
+            <a href="self-destruct.html">Self Destruct (jk, its cats)</a>
+
+        </div>
+        
+        <div id="content-wrapper">
+
+            <div id="main">
+                <div id="blurbbox">
+                    <img Align="left" src="/SPOOKY-graphics/pandebono.jpeg" alt="pan de bono">
+                    <p id="blurb">A colombian style cheese bread that comes ready made to put directly into the oven from the freezer. Tried a little honey mustard with one but they're great on their own! Must get more next time I go out for specialty ingredients.</p>
+                    <br>
+                    <br clear="left">
+                    <img Align="left" src="/SPOOKY-graphics/pansearedsalmon.jpeg" alt="pan seared salmon">
+                    <p id="blurb">This was a shot in the dark since I've never made crispy skin salmon ever but I fuckin NAILED it! could've used more salt since I was much too skiddish with the seasoning this time around but there will <i>absolutely</i> be a next time!</p>
+                    <br>
+                    <br clear="left">
+                    <img Align="left" src="/SPOOKY-graphics/ramenegg.jpeg" alt="well marinated ramen egg">
+                    <p id="blurb">Atop a bed of ramen noodles lays a sprinkling of lightly caramelized mushrooms that are paled by the luxuriously even brown color the egg, that was marinated 3 days in a mirin soy bath, has taken on. All the way through to the semisoft liquid core yolk itself is an umami the likes of which you must expirience for yourself. The egg alone makes this particular cheap meal that much more hearty, and thus simply priceless to my mind body and soul.</p>
+                </div>
+            </div>
+
+            <div id="sidebar">
+
+                <div class="switch-container-p">
+
+                    <input checked onclick="theme()" type="radio" name="theme" value="spiced" id='switch-p'> 
+                    <div class="switch-color-p"></div>
+                    <label id="switch" for="switch-p"> <img src="/SPOOKY-graphics/pumpkin.svg" class="pumpkin"> </label>
+                </div>
+
+                <div class="switch-container-w">
+                    
+                    <input onclick="theme()" type="radio" name="theme" value="spoopy" id='switch-w'> 
+                    <div class="switch-color-w"></div>
+                    <label id="switch" for="switch-w"> <img src="/SPOOKY-graphics/web.svg" class="web"> </label>
+                </div>
+
+                <div class="switch-container-m">
+                    
+                    <input onclick="theme()" type="radio" name="theme" value="meem" id='switch-m'> 
+                    <div class="switch-color-m"></div>
+                    <label id="switch" for="switch-m"> <img src="/SPOOKY-graphics/meem.svg" class="meem"> </label>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div id="footer"><a href="spooky-landing.html">okthen</a></div>
+
+    </div>
+</body>
+
+<script src="first-themes.js"></script>
+
+</html>

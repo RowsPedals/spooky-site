@@ -1,0 +1,90 @@
+:root {
+    --primary: rgb(69, 245, 100);
+    --secondary: rgba(69, 255, 119, 0.555);
+}
+
+body {
+    font-family: 'Atma', cursive;
+    margin: 0px;
+    margin-top: -15px;
+    padding:0;
+    background-color: #222222;
+    background: repeating-linear-gradient(0deg, #2b2b2b 0%, #2b2b2b 10%, #222222 0%, #222222 50%) 0 / 15px 15px;}
+
+p {
+    display: inline-block;
+    color: var(--secondary);
+    text-shadow: 
+    0 0 5px var(--primary),
+    0 0 10px rgb(69, 245, 100),
+    0 0 20px rgb(82, 246, 112),
+    0 0 40px rgb(91, 247, 120),
+    0 0 80px rgb(100, 249, 127),
+    0 0 90px rgb(111, 250, 136);
+}
+
+#Egg1 {
+    margin: 25px;
+}
+
+#Egg2 {
+    margin: 15px;
+}
+
+@-webkit-keyframes blink {
+    to {
+        opacity: 0.0;
+    }
+}
+
+@-moz-keyframes blink {
+    to {
+        opacity: 0.0;
+    }
+}
+
+@-ms-keyframes blink {
+    to {
+        opacity: 0.0;
+    }
+}
+
+@-o-keyframes blink {
+    to {
+        opacity: 0.0;
+    }
+}
+@keyframes blink {
+    to {
+        opacity: 0.0;
+    }
+}
+
+.arrow {
+    color: var(--secondary);
+    text-shadow: 0px 0px 40px var(--primary), 0px 0px 40px var(--primary);
+}
+
+.underscore {
+    color: var(--secondary);
+    text-shadow: 0px 0px 40px var(--primary), 0px 0px 40px var(--primary), 0px 0px 40px var(--primary);
+    -webkit-animation-name: blink;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-iteration-count: infinite;
+    
+    -moz-animation-name: blink;
+    -moz-animation-duration: 1s;
+    -moz-animation-iteration-count: infinite;
+    
+    -ms-animation-name: blink;
+    -ms-animation-duration: 1s;
+    -ms-animation-iteration-count: infinite;
+    
+    -o-animation-name: blink;
+    -o-animation-duration: 1s;
+    -o-animation-iteration-count: infinite;
+    
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
