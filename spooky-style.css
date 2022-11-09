@@ -430,10 +430,6 @@ body.spiced-setting #switch {
   cursor: auto;
 }
 
-body.spiced-setting #log {
-
-}
-
 body.spiced-setting .day {
   border: 3px dashed salmon;
   background-color: var(--primary);
@@ -491,12 +487,9 @@ body.spoopy-setting #switch {
   cursor: auto;
 }
 
-body.spoopy-setting #log {
+body.spoopy-setting .day {
   font-family: 'Cabin Sketch', cursive;
   color: var(--secondary);
-}
-
-body.spoopy-setting .day {
   border: 4px double var(--secondary);
   background-color: var(--primary);
 }
@@ -515,7 +508,7 @@ body.spoopy-setting .day {
   background-image: url("data:image/svg+xml,%3Csvg width='16' height='16' viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z' fill='%23ede1ff' fill-opacity='1' fill-rule='evenodd'/%3E%3C/svg%3E");
 
   background-color: var(--primary);
-  cursor: url('/SPOOKY-graphics/cursor-meem_32x32.png'), auto;
+  cursor: url('SPOOKY-graphics/cursor-meem_32x32.png'), auto;
 }
 
 body.meem-setting #nav {
@@ -523,7 +516,6 @@ body.meem-setting #nav {
   background-color: var(--primary);
   border: 3.5px dashed var(--secondary);
   border-radius: 4px;
-
   margin-top: 45px;
   width: 45%;
   margin-right: auto;
@@ -533,11 +525,10 @@ body.meem-setting #nav {
 
 body.meem-setting #nav a {
   color: var(--secondary);
-  cursor: url('/SPOOKY-graphics/pointer-meem_32x32.png'), pointer
+  cursor: url('SPOOKY-graphics/pointer-meem_32x32.png'), pointer
 }
 
 body.meem-setting #blurb {
-
   font-size: 15px;
 }
 
@@ -557,15 +548,11 @@ body.meem-setting #footer {
 body.meem-setting #footer a {
   font-family: 'Atma', cursive;
   color: var(--secondary);
-  cursor: url('/SPOOKY-graphics/pointer-meem_32x32.png'), pointer;
+  cursor: url('SPOOKY-graphics/pointer-meem_32x32.png'), pointer;
 }
 
 body.meem-setting #switch {
-  cursor: url('/SPOOKY-graphics/pointer-meem_32x32.png'), pointer;
-}
-
-body.meem-setting #log {
-
+  cursor: url('SPOOKY-graphics/pointer-meem_32x32.png'), pointer;
 }
 
 body.meem-setting .day {
