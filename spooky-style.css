@@ -629,6 +629,6 @@ body.e.meem-setting:focus  {
   background-position: bottom;
 }
 
-body.meem-setting .e {
+body.meem-setting .e a {
   cursor: url('SPOOKY-graphics/pointer-meem_32x32.png'), pointer;
 }
