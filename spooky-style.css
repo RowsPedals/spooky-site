@@ -628,3 +628,7 @@ body.e.meem-setting:focus  {
   animation: bg-animation 1s;
   background-position: bottom;
 }
+
+body.meem-setting .e {
+  cursor: url('SPOOKY-graphics/pointer-meem_32x32.png'), pointer;
+}
